@@ -2,10 +2,124 @@
 <html>
 <head>
     <title>Florian Ajir - Développeur web</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--Style bootstrap-->
+    <link rel="stylesheet" href="css/jumbotron-narrow.css">
+    <!--Style Perso-->
+    <link rel="stylesheet" href="css/global.css">
+
 </head>
 <body>
-<h1>Hello World!</h1>
+<div class="container">
+    <div class="header">
+        <ul class="nav nav-pills pull-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">A propos <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Compétences</a></li>
+                    <li><a href="#">Références</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">CV</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <h3 class="text-muted">Florian Ajir</h3>
+    </div>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="img/portrait.jpg" id="portrait">
+                </div>
 
-<p>test</p>
+                <div class="col-lg-10">
+                    <h1>Florian Ajir</h1>
+
+                    <p class="lead">
+                        Ingénieur programmeur, développeur d'applications web à <abbr
+                            title="Association des développeurs et utilisateurs de logiciels libres pour les administrations et les collectivités territoriales">Adullact</abbr>.
+                        <br>
+                        Artisan et partisan des logiciels libres <i class="icon-linux"></i>
+                    </p>
+
+                    <p>
+                        <a class="btn btn-primary btn-lg">Mon CV</a> <a class="btn btn-success btn-lg">
+                        Me contacter &raquo;
+                    </a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h2><i class="icon-user"></i> Florian Ajir</h2>
+                <address>
+                    Développeur | Adullact<br>
+                    836 rue du mas de verchant<br>
+                    34000 Montpellier, France
+                </address>
+                <!--<p><a class="btn btn-default" href="#">Contact &raquo;</a></p>-->
+                <p><a class="btn btn-default" href="#">Expériences &raquo; </a></p>
+            </div>
+            <div class="col-lg-4">
+                <h2><i class="icon-suitcase"></i> Développeur</h2>
+                <ul>
+
+                    <li>PHP (+CakePHP)</li>
+                    <li>Java (+<abbr title="Java Entreprise Edition : Java pour le web">JEE</abbr>)</li>
+                    <li>Linux (Ubuntu/Debian/Fedora)</li>
+                    <li><abbr
+                            title="Un script shell permet d'automatiser une série d'opérations. Il se présente sous la forme d'un fichier contenant une ou plusieurs commandes qui seront exécutées de manière séquentielle.">Scripts
+                        SHELL</abbr>
+                        /<abbr title="Langage de traitement de lignes, principalement utilisé pour la manipulation de fichiers textuels pour des opérations de recherches, de remplacement et de transformations complexes.">AWK</abbr>
+                        /<abbr title="Visual Basic pour Applications">VBA</abbr>
+                    </li>
+                </ul>
+                <p><a class="btn btn-default" href="#">Compétences &raquo; </a></p>
+            </div>
+            <div class="col-lg-4">
+                <h2><i class="icon-eye-open"></i> Sur la toile</h2>
+                <ul class="link-list">
+                    <li><a href="https://adullact.net/users/florianajir/"><i class="icon-briefcase"></i> Forge Adullact</a>
+                    </li>
+                    <li><a href="https://github.com/florianajir/"><i class="icon-github"></i> Github</a></li>
+                    <li><a href="http://stackoverflow.com/users/714966/"><i class="icon-stackexchange"></i> Stack
+                        overflow</a></li>
+                    <li><a href="http://fr.linkedin.com/in/florianajir‎"><i class="icon-github-sign"></i> LinkedIn</a>
+                    </li>
+                    <li><a href="https://plus.google.com/113336874114435170333/"><i class="icon-google-plus-sign"></i>
+                        Google +</a></li>
+                    <li><a href="https://twitter.com/FlorianAjir‎"><i class="icon-twitter-sign"></i> Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <footer>
+            <p>&copy; Florian Ajir 2013</p>
+        </footer>
+    </div>
+</div>
+<!-- /container -->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="//code.jquery.com/jquery.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>
